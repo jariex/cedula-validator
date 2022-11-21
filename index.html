@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador Cédula</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <h1>Validador de Cédula</h1>
+    <p>Comprueba si tu cédula es válida</p>
+
+    <form action="" method="dialog">
+        <input type="text" id="cedula-input" pattern="\d*" title="Sólo caracteres numéricos." minlength="11" maxlength="11"  required>
+        <input type="submit" value="Verificar" id="btn-verificar">
+    </form>
+
+    <p id="respuesta"></p>
+    
+</body>
+</html>
